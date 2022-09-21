@@ -1,0 +1,32 @@
+.btn{
+    border: 0;
+    outline: none;
+    padding: 0;
+    font-size: 1.6rem;
+}
+
+.btn--edit{
+    color: #3CCF4E;
+}
+.btn--delete{
+    color: red;
+}
+/*iconlarında tıklanma olayı ar onu iptal ettik ki herhangi bir yerine tıkladığımızda çalışşsın,bunu yapmasaydık tam icona tıkladığımızda event çaışmıyordu,
+çünkü buton içinde old. için butona tıklandığında çaışıyordu*/
+.fa-regular{
+    pointer-events: none;
+}
+.bilgi{
+    border-radius: 4px;
+    padding: 0.5rem;
+    margin: 1rem 0rem;
+    opacity: 0.7;
+}
+.bilgi--success{
+    border: 1px solid rgb(0, 128, 0);
+    background-color: rgba(128, 255, 0, 0.4);
+}
+.bilgi--error{
+    border: 1px solid red;
+    background-color: rgba(220, 20, 60, 0.4);
+}
